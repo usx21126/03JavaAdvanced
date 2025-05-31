@@ -26,6 +26,7 @@ public class Test {
 
     public static void go(Animal a) {
         System.out.println("开始。。。");
+        System.out.println(a.name);
         a.cry();
         if(a instanceof Dog){
             Dog d2 = (Dog) a;

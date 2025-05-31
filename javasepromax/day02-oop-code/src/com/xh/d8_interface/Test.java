@@ -6,5 +6,6 @@ public class Test {
         b.go();
         b.run();
         b.eat();
+        System.out.println(b.SCHOOL_NAME);
     }
 }
