@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--ctrl+/注释-->
+<users>
+    <user>
+        <name>张全蛋</name>
+        <gender>男</gender>
+        <age>32</age>
+        <hobby>炸机</hobby>
+        <sql>
+            select * from tb_student where age &gt;=28 &amp;&amp; age &lt;= 35
+        </sql>
+    </user>
+    <user>
+        <name>何广智</name>
+        <gender>男</gender>
+        <age>28</age>
+        <hobby>脱口秀</hobby>
+        <sql>
+            <![CDATA[
+                select * from tb_student where age >=28 && age <= 35
+            ]]>
+        </sql>
+    </user>
+</users>
