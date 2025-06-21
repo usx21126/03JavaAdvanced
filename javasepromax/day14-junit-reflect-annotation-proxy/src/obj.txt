@@ -1,0 +1,6 @@
+============Student============
+name:lihua
+age:32
+============Teacher============
+name:Teacher.Ma
+salary:9999.9
